@@ -1,48 +1,47 @@
-# THEORY: Why Positive Boolean Names Matter
-# ============================================
+#--------Group 1----------
+# Question: "Are you wearing shoes right now?"
 
-# Remember our standing activity? Some questions were easy, others confusing.
+is_wearing_shoes = False   # You are not wearing shoes.
 
-# EASY QUESTIONS (Clear and positive):
-# ✅ "Are you wearing shoes?"
-# ✅ "Did you eat breakfast?"
-# ✅ "Are you feeling awake?"
+# Question: "Did you eat breakfast today?"
+ate_breakfast_1 = True    # You ate breakfast this morning.
+ate_breakfast_2 = False   # You did not eat breakfast this morning.
 
-# HARD QUESTIONS (Negative and confusing):
-# ❌ "Are you NOT wearing a hat?"
-# ❌ "Did you NOT forget your homework?"
-# ❌ "Are you NOT tired?"
-
-# What made the hard questions difficult?
-# - Your brain had to process the truth FIRST
-# - Then FLIP it because of the "NOT"
-# - That's double work!
+# Question: "Are you feeling awake?"
+is_awake = True     # You are feeling awake
 
 
-# In Python, we store True/False values in variables.
-# Just like those questions, variable NAMES matter!
-
-# Compare these:
-is_wearing_shoes = True     # Clear! Easy to understand
-not_wearing_hat = True      # Wait... so they ARE wearing a hat? Confusing!
-
-print("is_wearing_shoes =", is_wearing_shoes)  # You can see the value
-print("not_wearing_hat =", not_wearing_hat)    # Still confusing to read!
+# Question: "Do you have a phone with you?"
+has_phone = True     # You have a phone with you.
 
 
-# Here's the key insight:
-# POSITIVE variable names don't mean the value is always True.
-# They mean the NAME describes a positive state.
+# Question: "Are you sitting near the sink?"
 
-is_wearing_shoes = True     # Wearing shoes
-is_wearing_shoes = False    # Not wearing shoes (but name is still positive/clear!)
+near_sink = False    # You are not sitting near the sink.
 
-not_tired = True            # Does this mean tired or NOT tired? 🤔
-not_tired = False           # Now I'm really confused!
+# ------Group 2--------
 
-is_awake = True             # Clear: awake
-is_awake = False            # Clear: not awake (sleepy)
+# Question: "Are you NOT wearing a hat?"
+not_wearing_hat = False     # You have a hat on your head.
 
 
-# Try changing the values above and running the code!
-# Notice how positive variable names stay clear no matter the value.# Paste code below then Commit changes [green button]
+# Question: "Did you NOT forget your homework?"
+not_forgot_homework = False    # You forgot your homework.
+
+
+# Question: "Are you NOT tired?"
+not_tired = True   # You don't need a nap.
+
+
+# Question: "Do you NOT have a pencil?"
+not_have_pencil = False     # You have a pencil
+
+
+# Question: "Are you NOT sitting by the teacher's desk?"
+not_in_front = False     # " Yes and the fridge too."
+
+
+
+# REFLECTION: Discuss with your partner
+# Which variable names were easiest to work with? Why?
+# Which were most confusing? Why?
